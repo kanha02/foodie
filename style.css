@@ -1,0 +1,485 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+.navbar{
+    position: sticky ;
+    top: 0px;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: aquamarine;
+    
+}
+.order__button{
+    margin-top: 10px;
+}
+.button__t1{
+    height: 30px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    background: linear-gradient(120deg, #0e5fd8, #ffffff );
+    border-radius: 6px;
+    background-color: white;
+    font-size: 10px;
+    
+}
+
+
+.logo{
+    height:80px;
+    width: 100px;
+}
+.text__x1{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: ivory;
+}
+.text__x2{
+  font-size: 15px;
+  font-family: 'Lobster', cursive;
+font-family: 'ZCOOL KuaiLe', cursive;
+color: oldlace;
+    
+}.text__x3{
+    color: oldlace;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar__text{
+    line-break: auto;
+}
+
+.hero__container{
+    margin-top: 1rem;
+    box-shadow: brown;
+}
+.container{
+    padding: 0px 20px;
+}
+.hero__image__container{
+   width: 100%;
+    position: relative;
+}
+.hero__image{
+    position: absolute;
+    z-index: 999;
+    right: auto;
+    left: auto;
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+
+}
+.hero__pattern{
+    position: absolute;
+
+}
+
+
+.hero__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero__text{
+    color: burlywood;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+.hero__text__resturants{
+    color: burlywood;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.hero__text__t1{
+    color: burlywood;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+.hero__text__t2{
+    color: burlywood;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+.button__t2{
+    height: 30px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background: linear-gradient(120deg, #0e5fd8, #ffffff );
+    border-radius: 6px;
+    background-color: white;
+    font-size: 10px;
+}
+.video__footage{
+    position: relative;
+    margin-top: 10px;
+}
+.video__footage::before{
+    position: absolute;
+    content: "";
+    background: linear-gradient(120deg, white, purple, yellow );
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform: translate(-2rem, -2rem);
+
+}
+
+.image__row1{
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.image__row2{
+    align-items: baseline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+.pic1, .pic4{
+    height: 80px;
+    width: 200px;
+    border-radius: 6px;
+    margin: 0px 4px;
+}
+.pic2, .pic3{
+    height: 80px;
+    width: 150px;
+    border-radius: 6px;
+    margin: 0px 4px;
+}.container__information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.video__footage__description{
+    margin-top: 1rem;
+}
+.pictures__jehanabad{
+    margin-top: 10px;
+}
+.fooding__list__continer{
+    margin-top: 1rem;
+}
+.resturants{
+    margin-top: 2rem;
+}.cafes{
+    margin-top: 2rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    background: linear-gradient(120deg, white, purple, yellow );
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+    border-radius-top: 20px;
+}
+.email__subscribe__container{
+    margin-top: 2rem;
+}
+.email__subscribe__input__field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.input__email{
+    height: 30px;
+    width: 200px;
+    background-color:lightblue;
+}
+.button__t3{
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    background: linear-gradient(120deg, #0e5fd8, #ffffff );
+    border-radius: 6px;
+    background-color: white;
+    font-size: 10px;
+}
+.text__x4{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: ivory;}
+
+
+
+.resturant__jehanabad1{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.zayka1{
+    height: 200px;
+    width: 300px;
+}
+.zayka3{
+    height: 200px;
+    width: 300px;
+}
+.zayka2{
+    width: 300px;
+}
+.text__resturants{
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}.resturant__jehanabad2{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+.rasoi1{
+    height: 200px;
+    width: 300px;
+}
+.rasoi2{width: 300px;
+
+}.rasoi3{
+    height: 200px;
+    width: 300px;
+}
+.maatara1{
+    height: 200px;
+    width: 300px;
+}
+.maatara2{
+
+    width: 300px;
+}.maatara3{
+    height: 200px;
+    width: 300px;
+}
+.resturant__jehanabad3{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+
+}.text__resturants__name{
+    font-family: 'Pacifico', cursive;
+    
+}
+.hero__image1{
+    position: absolute;
+    z-index: 999;
+    right: auto;
+    left: auto;
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+}
+.hero__image2{
+    position: absolute;
+    z-index: 999;
+    right: auto;
+    left: auto;
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+
+}
+
+@media(min-width:1200px){
+    .navbar{
+        padding: 1rem;
+        position: sticky;
+
+    }.hero__image{
+        height: 350px;
+    }.hero__image1{
+        height: 300px;
+    }
+    .hero__image2{
+        height: 280px;
+    }
+    .text__x1{
+        font-family: 'ZCOOL KuaiLe', cursive;
+        margin-top: 6rem;
+    }
+    .button__t1{
+        width: 100px;
+    }
+   
+    .hero__text__t1{
+        color: burlywood;
+        font-size: 30px;
+        font-family: 'Merriweather', serif;
+        margin-left: 600px;
+    }
+    .button__t1:hover{
+        background: linear-gradient(-120deg, #0e5fd8, #ffffff );
+        transform: skewX(15deg);
+        transition: ease-in-out;
+        color: olivedrab;
+        height: 40px;
+        width: 300px;
+        
+    }
+    .text__x2{
+        font-weight: 300;
+        font-size: 20px;
+        line-break: auto;
+    }
+    .container{
+        justify-content: space-between;
+        padding: 0px 200px;
+    }
+    .hero__container{
+        display: flex;
+        flex-direction: row-reverse;
+        width: auto;
+        align-items: center;
+    }
+    .pictures__jehanabad__diagonal{
+        background: linear-gradient(-120deg, #0e5fd8, #ffffff );
+        top: 0px;
+        left: 0px;
+        transform: skewX(-5deg);
+        
+
+    }
+    .hero__image__container{
+        height: 600px;
+        width: 600px;
+        margin-top: 5rem;
+    }
+    .hero__text{
+        line-height: 3rem;
+        font-size: 4rem;
+        font-size: 40px;
+    }
+    .button__t2{
+        height: 50px;
+        width: 200px;
+    }
+    .button__t2:hover{
+        background: linear-gradient(-120deg, #0e5fd8, #ffffff );
+        transform: skewX(15deg);
+        transition: ease-in-out;
+        color: olivedrab;
+        height: 50px;
+        width: 300px;
+    }
+    .container__information__pictures{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .image__row1{
+        justify-content: center;
+    }
+    .image__row2{
+        justify-content: center;
+        margin: top 10px;
+        align-items: flex-start;
+    }
+    .video__footage__description{
+        margin-bottom: 40px;
+    }
+    .pic1, .pic2,.pic3,.pic4{
+        height: 200px;
+        width: 300px;
+        border-radius: 6px;
+    }
+   .pic1:hover{
+    height: 500px;
+    width: 700px;
+    transition: ease-in-out;
+   }
+   .pic2:hover{
+    height: 500px;
+    width: 700px;
+    transition: ease-in-out;
+   }.pic3:hover{
+    height: 500px;
+    width: 700px;
+    transition: ease-in-out;
+   }.pic4:hover{
+    height: 500px;
+    width: 700px;
+    transition: ease-in-out;
+   }
+   .resturants{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+.cafes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text__x3{
+    font-size: 3rem;
+}
+.text__x2{
+    font-size: 1.5rem;
+}
+footer{
+    flex-direction: row;
+}
+.email__subscribe__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text__x4{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: ivory;
+    font-size: 40px;
+    margin-top: 3rem;
+}
+.input__email{
+    height: 40px;
+    width: 300px;
+}
+.button__t3{
+    height: 50px;
+    width: 100px;
+}
+.hero__text__resturants{
+    font-size: 40px;
+}
+.resturant__jehanabad__diagonal{
+    background: linear-gradient(-120deg, #0e5fd8, #ffffff );
+    top: 0px;
+    left: 0px;
+    transform: skewX(-5deg);
+
+}
+.text__resturants:hover{
+    font-size: 60px;
+}
+.resturant__jehanabad__diagonal2{
+  background: linear-gradient(-120deg, skyblue, #ffffff);
+    transform: skewx(-10deg);
+    top: 0px;
+    left: 0px;
+}
+.resturant__jehanabad__diagonal3{
+    background: linear-gradient(-120deg, #0e5fd8, #ffffff );
+    transform: skewx(-10deg);
+    top: 0px;
+    left: 0px;
+}
+}
